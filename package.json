@@ -1,0 +1,14 @@
+{
+  "name": "youtube-video-downloader",
+  "version": "1.0.0",
+  "description": "An Express app to download YouTube videos as zip files",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ytdl-core": "^4.7.2",
+    "archiver": "^5.2.2"
+  }
+}
